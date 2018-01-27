@@ -68,12 +68,12 @@ public class AbstractEntity {
 		this.updatedTime = new Date();
 	}
 
-	public Date getCreatedTs() {
+	public Date getCreatedTime() {
 		return createdTime;
 	}
 
-	public void setCreatedTs(Date createdTs) {
-		this.createdTime = createdTs;
+	public void setCreatedTime(Date createdTime) {
+		this.createdTime = createdTime;
 	}
 
 	public String getCreatedBy() {
@@ -84,12 +84,12 @@ public class AbstractEntity {
 		this.createdBy = createdBy;
 	}
 
-	public Date getUpdatedTs() {
+	public Date getupdatedTime() {
 		return updatedTime;
 	}
 
-	public void setUpdatedTs(Date updatedTs) {
-		this.updatedTime = updatedTs;
+	public void setupdatedTime(Date updatedTime) {
+		this.updatedTime = updatedTime;
 	}
 
 	public String getUpdatedBy() {

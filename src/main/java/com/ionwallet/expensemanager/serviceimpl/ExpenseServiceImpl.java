@@ -16,7 +16,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 	@Override
 	public Expense saveExpense(Expense expense) {
 		// TODO Auto-generated method stub
-		return null;
+		return expenseRepository.save(expense);
 	}
 
 }

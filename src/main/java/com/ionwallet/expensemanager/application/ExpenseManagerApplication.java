@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 
+import com.ionwallet.expensemanager.entities.Expense;
 import com.ionwallet.expensemanager.service.ExpenseService;
 
 @SpringBootApplication
@@ -20,6 +21,9 @@ public class ExpenseManagerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ExpenseManagerApplication.class, args);
 		System.out.println("Welcome to Expense Manager App");
+		
+		Expense expense = new Expense();
+		
 	}
 	
 }

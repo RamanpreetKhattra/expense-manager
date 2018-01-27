@@ -37,4 +37,37 @@ public class Expense extends AbstractEntity{
 	public Long getExpenseId() {
 		return expenseId;
 	}
+	
+	public Long getAmount() {
+		return amount;
+	}
+	
+	public void setAmount(Long amount) {
+		this.amount = amount;
+	}
+	
+	public String getCurrency() {
+		return currency;
+	}
+	
+	public void setCurrency(String currency) {
+		this.currency = currency;
+	}
+	
+	public String getCategory() {
+		return category;
+	}
+	
+	public void setCategory(String category) {
+		this.category = category;
+	}
+	
+	public Integer getUserId() {
+		return userId;
+	}
+	
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
+	
 }
