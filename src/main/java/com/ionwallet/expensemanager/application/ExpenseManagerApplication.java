@@ -10,7 +10,7 @@ import com.ionwallet.expensemanager.entities.Expense;
 import com.ionwallet.expensemanager.service.ExpenseService;
 
 @SpringBootApplication
-@ComponentScan("com.ionwallet.expensemanager")
+@ComponentScan(basePackages={"com.ionwallet"})
 @EntityScan("com.ionwallet.expensemanager.entities")
 //@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class,  HibernateJpaAutoConfiguration.class})
 public class ExpenseManagerApplication {
