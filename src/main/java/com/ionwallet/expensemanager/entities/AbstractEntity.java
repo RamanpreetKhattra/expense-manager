@@ -85,11 +85,11 @@ public class AbstractEntity {
 		this.createdBy = createdBy;
 	}
 
-	public LocalDateTime getupdatedTime() {
+	public LocalDateTime getUpdatedTime() {
 		return updatedTime;
 	}
 
-	public void setupdatedTime(LocalDateTime updatedTime) {
+	public void setUpdatedTime(LocalDateTime updatedTime) {
 		this.updatedTime = updatedTime;
 	}
 
