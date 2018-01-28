@@ -4,6 +4,8 @@ import com.ionwallet.expensemanager.dtos.ExpenseDTO;
 
 public interface ExpenseService {
 	
-	public ExpenseDTO addNewExpense(ExpenseDTO expenseDTO);
+	public ExpenseDTO saveExpense(ExpenseDTO expenseDTO);
+	
+	public ExpenseDTO getExpense(Long expenseId);
 	
 }
