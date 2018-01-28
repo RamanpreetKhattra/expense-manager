@@ -2,6 +2,8 @@ package com.ionwallet.expensemanager.dtos;
 
 import java.io.Serializable;
 
+import com.ionwallet.expensemgrutility.common.dtos.AbstractDTO;
+
 public class ExpenseDTO extends AbstractDTO implements Serializable{
 	
 	private Long expenseId;
