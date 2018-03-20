@@ -7,6 +7,8 @@ import com.ionwallet.expensemanager.entities.Expense;
 
 @Repository
 public interface ExpenseRepository extends JpaRepository<Expense, Long> {
+
+	Expense findByExpenseId(Long expenseId);
 	
 	
 

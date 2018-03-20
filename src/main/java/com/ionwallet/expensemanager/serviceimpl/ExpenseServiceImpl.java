@@ -27,7 +27,7 @@ public class ExpenseServiceImpl implements ExpenseService {
 	
 	@Override
 	public ExpenseDTO getExpense(Long expenseId) {
-		Expense expense = expenseRepository.findOne(expenseId);
+		Expense expense = expenseRepository.findByExpenseId(expenseId);
 		ExpenseDTO savedExpenseDTO = expenseMapper.covertToDto(expense);
 		return savedExpenseDTO;
 	}
